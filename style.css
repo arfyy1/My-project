@@ -1,0 +1,76 @@
+html{
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #e6e6ff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  width: 35%;
+  background-color: #f0f0f0;
+}
+
+.container-heading{
+  margin: 0;
+  margin-bottom: 16px;
+  width: 100vw; /* agar selebar viewport */
+  background-color: rgba(249, 249, 249, 0.5); /* warna latar belakang opsional */
+  padding: 0; /* beri jarak dalam */
+  box-sizing: border-box; /* padding tidak menambah lebar */
+  text-align: center; /* rata tengah teks */
+  position: sticky; /* opsional: biar nempel di atas saat discroll */
+  top: 0;
+  z-index: 1000;
+}
+
+img{
+  height: 500px;
+  display: block;
+  width: 100%;
+  padding: 0 16px; /* Atur padding kanan dan kiri */
+  box-sizing: border-box; /* Supaya padding tidak menambah total lebar */
+  border-radius: 10px; /* Opsional: biar gambar tidak terlalu kotak */
+}
+
+.table-edit{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container-content{
+  margin-right: 10px;
+  margin-left: 10px;
+}
