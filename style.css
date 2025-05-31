@@ -59,7 +59,7 @@ th {
 img{
   height: 900px;
   display: block;
-  width: 100%;
+  width: 300px;
   padding: 0 16px; /* Atur padding kanan dan kiri */
   box-sizing: border-box; /* Supaya padding tidak menambah total lebar */
   border-radius: 10px; /* Opsional: biar gambar tidak terlalu kotak */
